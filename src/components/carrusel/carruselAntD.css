@@ -1,0 +1,26 @@
+.container {
+  background-color: #38b82c;
+}
+
+#elements {
+  display: flex !important;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.container img {
+  width: 50px;
+}
+
+.item {
+  width: 25%; /* Ajusta según cuántas imágenes quieres mostrar */
+  padding: 5px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
